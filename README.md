@@ -1,7 +1,6 @@
 # BONUS Project: Rock, Paper, Scissors! 🪨 📃 ✂️
 
- Implement playing Rock, Paper, Scissors against the computer!  Here are the
- specifications:
+ Program Rock, Paper, Scissors against the computer using OOP principles (and classes)!  Here are the specifications:
 
 - 1. Define a function named "play_rock_paper_scissors" that takes in one
      arguement, which should be an integar value for the number of rounds to
