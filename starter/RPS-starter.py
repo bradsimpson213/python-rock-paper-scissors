@@ -6,6 +6,8 @@ class RPS:
     def __init__(self, players = 1, rounds = 3):
         self.players = players
         self.rounds = rounds
+        self.player_wins = 0
+        self.computer_wins = 0
 
 
     def computer_play():
@@ -24,8 +26,6 @@ class RPS:
 
     def play_rock_paper_scissors(n):
         play_count = 0
-        player_wins = 0
-        computer_wins = 0
         while play_count >= n:
             player_choice = input("Pick 'Rock, Paper, or Scissors' ")
             if player_choice != "Rock" or "Paper" or "Scissors":
